@@ -33,7 +33,7 @@ body {
 
     /* NAV LINKS */
     ul {
-        position: fixed;
+        position: absolute;
         top: 5px;
         right: 10px;
         list-style-type: none;
@@ -121,6 +121,10 @@ footer {
     padding-bottom: 5px;
 }
 
+/* RESPONSIVENESS */
+/* NOTE TO TA - I HAVE MADE IT RESPONSIVE EXCEPT IMG ISN'T CENTERED
+IN MAX WIDTH 640, ALONG WITH NAV BAR */
+
 /* 960 MAX WIDTH - MEDIA SCREEN */
 @media screen and (max-width: 980px) {
    
@@ -128,7 +132,7 @@ footer {
     #content {
         margin-right: 300px;
         margin-left: 30px;
-        padding-bottom: 210px;
+        padding-bottom: 410px;
     }
 
     header {
@@ -145,11 +149,12 @@ footer {
 /* 768 MAX WIDTH - MEDIA SCREEN */
 @media screen and (max-width: 768px) {
 
-    /* Content box changes to right margin with 300px  */
+    /* Content box changes to center with equal right-left margins and lots of bottom padding*/
     #content {
         margin-right: 30px;
         margin-left: 30px;
-        padding-bottom: 110px;
+        padding-bottom: 210px;
+        margin-bottom: 200px;
     }
 
     header {
@@ -157,19 +162,46 @@ footer {
     }
 
     ul {
-        position: fixed;
+        position: absolute;
         right: -150px;
     }
 
 }
 
 
-
+/* 640 MAX WIDTH - MEDIA SCREEN */
 @media screen and (max-width: 640px) {
-   
-    /* The image will be no bigger than  */
-    img {
-      max-width: 90px;
-      max-height: 90px;
+
+    /* Content box changes to right margin with 300px  */
+    #content {
+        margin-right: 30px;
+        margin-left: 30px;
+        padding-bottom: 430px;
+        margin-bottom: 150px;
     }
+
+    header {
+        margin-left: 0px;
+        width: 100%;
+        text-align: center;
+        border-bottom-style: solid;
+        border-bottom-color: white;
+        border-bottom-width: 60px;
+    }
+
+    ul {
+        padding-top: 75px;
+
+    }
+
+    p {
+        clear: both;
+    }
+
+    img {
+        margin: auto;
+        height: 230px;
+        width: 230px;
+    }
+
 }
