@@ -114,6 +114,7 @@ body {
 /* FOOTER */
 
 footer {
+    clear: both;
     border-top-style: solid;
     border-top-color: #4aaaa5;
     border-top-width: 8px;
@@ -124,6 +125,97 @@ footer {
     text-align: center;
     padding-top: 35px;
     padding-bottom: 5px;
-    position: absolute;
-    width: 100%;
+}
+
+/* RESPONSIVENESS */
+/* NOTE TO TA - I HAVE MADE IT RESPONSIVE EXCEPT IMG ISN'T CENTERED
+IN MAX WIDTH 640, ALONG WITH NAV BAR */
+
+/* 960 MAX WIDTH - MEDIA SCREEN */
+@media screen and (max-width: 980px) {
+   
+    /* Content box changes to right margin with 300px  */
+    .portfolio {
+        margin-right: 300px;
+        margin-left: 30px;
+        padding-bottom: 410px;
+    }
+
+    header {
+        margin-left: 20px;
+    }
+
+    ul {
+        position: fixed;
+        right: -150px;
+    }
+
+    .column {
+        padding-right: 80px;
+    }
+
+}
+
+/* 768 MAX WIDTH - MEDIA SCREEN */
+@media screen and (max-width: 768px) {
+
+    /* Content box changes to center with equal right-left margins and lots of bottom padding*/
+    .portfolio {
+        margin-right: 30px;
+        margin-left: 30px;
+        max-width: 800px;
+        padding-bottom: 210px;
+        margin-bottom: 200px;
+    }
+
+    header {
+        margin-left: 20px;
+    }
+
+    ul {
+        position: absolute;
+        right: -150px;
+    }
+
+}
+
+
+/* 640 MAX WIDTH - MEDIA SCREEN */
+@media screen and (max-width: 640px) {
+
+    /* Content box changes to right margin with 300px  */
+    .portfolio {
+        margin-right: 30px;
+        margin-left: 30px;
+        height: 1030px;
+        margin-bottom: 150px;
+    }
+
+    header {
+        margin-left: 0px;
+        width: 100%;
+        text-align: center;
+        border-bottom-style: solid;
+        border-bottom-color: white;
+        border-bottom-width: 60px;
+    }
+
+    ul {
+        padding-top: 75px;
+
+    }
+
+    p {
+        clear: both;
+    }
+
+    img {
+        margin: auto;
+        width: 300px;
+    }
+
+    p {
+        width: 300px;
+    }
+
 }
