@@ -1,0 +1,129 @@
+/* THE ENTIRE SITE */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+    background-image: url('../images/concrete.png'); 
+    background-repeat: round;
+}
+
+/* NAVIGATION BAR */
+.navbar {
+    background-color: #ffffff;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+    border-bottom-width: 2px;
+    width: 100%;
+}
+
+    /* LOGO */
+    header {
+        clear: both;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding: 25px;
+        margin: 0px;
+        width: 220px;
+        margin-left: 189px;
+        /* float: left; */
+}
+
+    /* NAV LINKS */
+    ul {
+        position: fixed;
+        top: 5px;
+        right: 10px;
+        list-style-type: none;
+        margin-right: 189px;
+        /* float: right; */
+    }
+
+    li {
+        float: right;
+    }
+
+    li a {
+        clear: both;
+        display: block;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #777777;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    } 
+
+/* ---- ALL CONTENT -- TEXT, IMAGES */
+    .portfolio {
+        clear: both;
+        position: relative;
+        height: 750px;
+        max-width: 898px;
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 60px;
+        padding: 30px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #dddddd;
+        background-color: white;
+    }
+
+        .column {
+            float: left;
+            width: 33.3%;
+            padding: 10px;
+        }
+
+            img {
+                width: 250px;
+                height: auto;
+            }
+
+            p {
+                position: absolute;
+                background-color: #4aaaa5;
+                width: 250px;
+                color: white;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                text-align: center;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                margin-top: 130px;
+            }
+ 
+
+        /* "PORTFOLIO" TEXT */
+        h1 {
+            color: #4aaaa5;
+            font-size: 32px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    
+        hr {
+            border-width: 0px;
+            background-color: #cccccc;
+            height: 3px;
+            margin: auto;
+            margin-bottom: 25px;
+        }
+
+
+/* FOOTER */
+
+footer {
+    border-top-style: solid;
+    border-top-color: #4aaaa5;
+    border-top-width: 8px;
+    background-color:  #666666;
+    color: #dddddd;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 5px;
+    position: absolute;
+    width: 100%;
+}

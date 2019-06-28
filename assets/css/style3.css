@@ -1,0 +1,142 @@
+/* THE ENTIRE SITE */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+    background-image: url('../images/concrete.png'); 
+    background-repeat: round;
+}
+
+/* NAVIGATION BAR */
+.navbar {
+    background-color: #ffffff;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+    border-bottom-width: 2px;
+    width: 100%;
+}
+
+    /* LOGO */
+    header {
+        background-color: #4aaaa5;
+        color: #ffffff;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding: 25px;
+        margin: 0px;
+        width: 220px;
+        margin-left: 189px;
+}
+
+    /* NAV LINKS */
+    ul {
+        position: fixed;
+        top: 5px;
+        right: 10px;
+        list-style-type: none;
+        margin-right: 189px;
+        /* float: right; */
+    }
+
+    li {
+        float: right;
+    }
+
+    li a {
+        clear: both;
+        display: block;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #777777;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    } 
+
+/* ---- ALL CONTENT -- CONTACT + CONTACT FORM */
+    .container {
+        position: relative;
+        height: 550px;
+        max-width: 898px;
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 70px;
+        padding: 30px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #dddddd;
+        background-color: white;
+    }
+
+ 
+        /* "CONTACT" TEXT */
+        h1 {
+            color: #4aaaa5;
+            font-size: 32px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    
+        hr {
+            border-width: 0px;
+            background-color: #cccccc;
+            height: 3px;
+            margin: auto;
+            margin-bottom: 25px;
+        }
+
+        /* CONTACT FORM */
+        label {
+            font-family: Arial, Helvetica, sans-serif;
+            color: #777777;
+        }
+        
+        form {
+            border-color: #cccccc;
+            width: 100%:
+        }
+        
+      input {
+          width: 100%;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          padding-left: 5px;
+      }
+
+      #fname,
+      #email,
+      #message {
+          border-color: #cccccc;
+          border-style: solid;
+          border-width: 1px;
+      }
+
+      #message {
+          margin-bottom: 10px;
+          width: 100%;
+          height: 200px;
+      }
+
+      #submit {
+          width: 80px;
+          background-color: #4aaaa5;
+          color: #ffffff;
+          font-size: 14px;
+      }
+
+
+/* FOOTER */
+
+footer {
+    border-top-style: solid;
+    border-top-color: #4aaaa5;
+    border-top-width: 8px;
+    background-color:  #666666;
+    color: #dddddd;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 5px;
+    position: absolute;
+    width: 100%;
+}
