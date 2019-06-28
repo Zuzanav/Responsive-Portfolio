@@ -140,18 +140,30 @@ footer {
         right: -150px;
     }
 
-    
-
 }
 
+/* 768 MAX WIDTH - MEDIA SCREEN */
 @media screen and (max-width: 768px) {
-   
-    /* The image will be no bigger than  */
-    img {
-      max-width: 90px;
-      max-height: 90px;
+
+    /* Content box changes to right margin with 300px  */
+    #content {
+        margin-right: 30px;
+        margin-left: 30px;
+        padding-bottom: 110px;
     }
+
+    header {
+        margin-left: 20px;
+    }
+
+    ul {
+        position: fixed;
+        right: -150px;
+    }
+
 }
+
+
 
 @media screen and (max-width: 640px) {
    
