@@ -1,2 +1,7 @@
 # Responsive-Portfolio
-Recreating my website portfolio by making it responsive to different devices - Week 2 Homework Assignment
+___
+
+[view responsive portfolio here](https://zuzanav.github.io/Responsive-Portfolio/)
+
+## Description
+This was a portfolio created within the USCD Extension Coding Bootcamp to practice making a site responsive. 
